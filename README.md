@@ -4,6 +4,9 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/kinai/geopulse?style=for-the-badge&logo=docker&color=4ecdc4)](https://hub.docker.com/r/kinai/geopulse)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=open-source-initiative&color=45b7d1)](LICENSE)
 [![Privacy First](https://img.shields.io/badge/Privacy-First-green.svg?style=for-the-badge&logo=shield&color=96ceb4)](docs/privacy.md)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/Logo-7.gif" alt="KinAi-Nexpatrol" width="100%" />
+</p>
 
 > **A privacy-first family location tracking and geofencing system integrated with the KinAI Ecosystem, leveraging Traccar for secure, real-time location data and contextual insights.**
 
