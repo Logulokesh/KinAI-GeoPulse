@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: traccar-db
+    environment:
+      POSTGRES_DB: traccar
+      POSTGRES_USER: traccar
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  traccar:
+    image: traccar/traccar:latest
+    container_name: traccar-server
+    ports:
+      - "8082:8082" # Traccar Web UI
+      - "5000-5150:5000-5150/udp" # GPS ports
+    environment:
+      DATABASE_DRIVER: org.postgresql.Driver
+      DATABASE_URL: jdbc:postgresql://db:5432/traccar
+      DATABASE_USER: traccar
+      DATABASE_PASSWORD: secret
+    depends_on:
+      - db
+    volumes:
+      - traccar-data:/opt/traccar/data
+    restart: unless-stopped
+
+  api:
+    build: ./api
+    container_name: family-tracker-api
+    ports:
+      - "8000:8000"
+    depends_on:
+      - traccar
+    volumes:
+      - ./api:/app
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+  traccar-data:
