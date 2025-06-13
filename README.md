@@ -131,17 +131,16 @@ This project enables families to stay connected with actionable insights, such a
 ## 💬 Contribution to KinAI Ecosystem
 
 KinAI-GeoPulse plays a critical role in the KinAI Ecosystem by providing **location-based contextual data** to the natural language chat hub. This data enhances the AI's ability to deliver meaningful, family-centric responses, integrating seamlessly with other KinAI projects like KinAI-Vision, KinAI-CareVault, KinAI-NexPatrol, KinAI-ScholarKit, and KinAI-Mentor.
-
 ### 📊 Data Provided to the KinAI Ecosystem
 
 | Data Type | Description | Example Use in Chat |
 |-----------|-------------|---------------------|
-| **Current Location** | Latitude, longitude, and address of family members' devices | **Q:** "Where is my daughter?" **A:** "Your daughter is at school, located at 123 Main St, 5 km from home." |
-| **Distance from Home** | Distance (in km) from a predefined home coordinate | **Q:** "Is anyone near home?" **A:** "Your son is 0.5 km from home, likely arriving soon." |
-| **Geofence Events** | Entry/exit events for predefined zones (e.g., home, school) | **Q:** "Did my daughter leave school?" **A:** "Your daughter left the school geofence at 3:15 PM." |
-| **Device Status** | Battery level, last update time, and device activity status | **Q:** "Is dad's phone okay?" **A:** "Dad's phone is active with 80% battery, last updated 5 minutes ago." |
-| **Daily Summary** | Summary of a device's movements and activities for the day | **Q:** "What did my son do today?" **A:** "Your son traveled 12 km, visited the office, and spent 4 hours at home." |
-| **Recent Events** | Recent location-related events (e.g., speeding, zone entry) | **Q:** "Any updates on my daughter?" **A:** "Your daughter entered the park geofence at 4:30 PM." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/CurrentLocation.png" width="50%"/><br>**Current Location** | Latitude, longitude, and address of family members' devices | **Q:** "Where is my daughter?"<br>**A:** "Your daughter is at school, located at 123 Main St, 5 km from home." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/DistancefromHome.png" width="50%"/><br>**Distance from Home** | Distance (in km) from a predefined home coordinate | **Q:** "Is anyone near home?"<br>**A:** "Your son is 0.5 km from home, likely arriving soon." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/GeofenceEvents.png" width="50%"/><br>**Geofence Events** | Entry/exit events for predefined zones (e.g., home, school) | **Q:** "Did my daughter leave school?"<br>**A:** "Your daughter left the school geofence at 3:15 PM." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/DeviceStatus.png" width="50%"/><br>**Device Status** | Battery level, last update time, and device activity status | **Q:** "Is dad's phone okay?"<br>**A:** "Dad's phone is active with 80% battery, last updated 5 minutes ago." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/DailySummary.png" width="50%"/><br>**Daily Summary** | Summary of a device's movements and activities for the day | **Q:** "What did my son do today?"<br>**A:** "Your son traveled 12 km, visited the office, and spent 4 hours at home." |
+| <img src="https://raw.githubusercontent.com/Logulokesh/KinAI-GeoPulse/refs/heads/main/api/RecentEvents.png" width="50%"/><br>**Recent Events** | Recent location-related events (e.g., speeding, zone entry) | **Q:** "Any updates on my daughter?"<br>**A:** "Your daughter entered the park geofence at 4:30 PM." |
 
 ### 🔄 Integration Benefits
 
@@ -153,6 +152,8 @@ KinAI-GeoPulse plays a critical role in the KinAI Ecosystem by providing **locat
 ---
 
 ## 🏗️ System Architecture
+<details>
+  <summary>🏗️ <strong>Architecture</strong> – Click to Expand</summary>
 
 ```mermaid
 graph TD
@@ -182,9 +183,9 @@ graph TD
     style TRACCAR fill:#e8f5e8,stroke:#388e3c
     style DB fill:#fff3e0,stroke:#f57c00
     style CHAT fill:#fce4ec,stroke:#c2185b
-```
+ ```
+</details>
 
----
 
 ## 🔧 Tech Stack
 
