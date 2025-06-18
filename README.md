@@ -4,7 +4,7 @@
 
 *Next-Gen Privacy-First Location Tracking & Geofencing*
 
-**🛡️ PRIVACY-FIRST • 🌍 REAL-TIME TRACKING • 🤖 AI-POWERED**
+**[🛡️ PRIVACY-FIRST ] • [🌍 REAL-TIME TRACKING] • [🤖 AI-POWERED]**
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
