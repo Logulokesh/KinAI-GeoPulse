@@ -276,11 +276,25 @@ KinAI-GeoPulse integrates with the KinAI Ecosystem via the natural language chat
 
 This synergy creates a unified, privacy-first family assistant that delivers real-time, actionable insights.
 
+
 ---
+
+<div align="center">
+
+[![Contributors](https://contrib.rocks/image?repo=Logulokesh/KinAI-Ecosystem)](https://github.com/Logulokesh/KinAI-Ecosystem/graphs/contributors)
+
+</div>
+
+---
+
 ## 📄 License
 
-[MIT License](https://opensource.org/licenses/MIT) - See [LICENSE](LICENSE) for details.
+Yes, it’s completely free — just like a gesture of support 🤝, a nod of appreciation 👍, or a reassuring smile 😊.
 
-## 🙏 Acknowledgments
+---
 
-Built with passion for privacy, intelligence, and family connectivity, KinAI-GeoPulse is part of the KinAI Ecosystem, dedicated to advancing privacy-first AI solutions.
+<div align="center">
+
+**Built with passion ❤️ for privacy, intelligence, and automation**
+
+</div>
